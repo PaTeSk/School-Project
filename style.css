@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap');
+/* font-family: 'Kanit', sans-serif; */
+
+html,
+body{
+    height: 100%;
+    margin: 0;
+    font-family: 'Kanit', sans-serif;
+}
+
+
+.split-screen{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+
+.left-side{
+    width: 50%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.851);
+}
+
+.left-side-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: white;
+}
+
+
+.right-side{
+    width: 50%;
+    height: 100%;
+
+    background-color: rgb(255, 255, 255);
+}
+
+.right-side-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.logo{
+    height: 300px;
+    width: 300px;
+}
