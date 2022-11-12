@@ -17,7 +17,19 @@ body{
     display: flex;
 }
 
+.logo{
+    height: 300px;
+    width: 300px;
 
+}
+
+
+                    /* Left Side */
+                /*                  */
+            /*                          */
+        /*                                  */
+    /*                                          */
+/*                                                  */
 .left-side{
     width: 50%;
     height: 100%;
@@ -32,12 +44,35 @@ body{
     height: 100%;
     color: white;
     cursor: url(./Images/git\ logo\ cursor.png), auto;
+
 }
 
+.left-side-translate{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: translate 1.5s;
+}
 
+.left-side-content:hover .left-side-translate{
+    translate: 0px -250px
+}
+/* ----------------------------END------------------------------ */
+
+
+
+
+
+                    /* Right Side */
+                /*                   */
+            /*                          */
+        /*                                 */
+    /*                                         */
+/*                                                 */
 .right-side{
     width: 50%;
-    height: 100%;
+    height: 100%; 
 
     background-color: rgb(255, 255, 255);
 }
@@ -52,66 +87,10 @@ body{
     
 }
 
-.logo{
-    height: 300px;
-    width: 300px;
-}
-
-.left-side-box{
-    display: flex;
-    flex-direction: column;
-    width: 700px;
-    height: 300px;
-    position: absolute;
-    opacity: 0;
-}
-
-.left-side-content:hover .transition-to-top{
-    transition: 4s;
-    opacity: 1; 
-}
+/* ----------------------------END------------------------------ */
 
 
-.left-side-content:hover .transition-to-hidden{
-    transition: 1s;
-    opacity: 0; 
-}
 
 
-.logo-top{
-    height: 300px;
-    width: 300px;
-
-}
-
-.transition-to-top{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    height: 100%;
-    color: white;
-    position: absolute;
-    opacity: 0;
-}
-
-.transition-to-hidden{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    color: white;
-    position: absolute;
- 
-}
-
-.after-transition-content{
-display: flex;
-flex-direction: column;
-justify-content: center;
-width: 700px;
-height: 200px;
 
 
-}
