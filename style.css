@@ -35,6 +35,10 @@ h3{
     font-size: 25px;
 }
 
+p{
+    font-size: 20px;
+}
+
 
 
 
@@ -91,7 +95,7 @@ h3{
     transition: 1s;
     transition-delay: 800ms;
     opacity: 1;
-    padding-top: 170px;
+    padding-top: 222px;
 }
 
 .left-side-conheader{
@@ -186,7 +190,7 @@ h3{
     transition: 1s;
     transition-delay: 800ms;
     opacity: 1;
-    padding-top: 170px;
+    padding-top: 222px;
 }
 
 .right-side-conheader{
