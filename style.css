@@ -23,7 +23,15 @@ body{
 
 }
 
+h1{
+   filter: drop-shadow(0px 0px 0px #ffffff33);
+}
+
 h2{
+    font-size: 2em;
+}
+
+h3{
     font-size: 25px;
 }
 
@@ -59,9 +67,13 @@ h2{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-shadow: 2px 2px 2px #DE4C36;
+    
     transition: translate 1.5s;
 
 }
+
+
 
 .left-side-content:hover .left-side-translate{
     translate: 0px -250px
@@ -85,6 +97,9 @@ h2{
 .left-side-conheader{
     display: flex;
     justify-content: center;
+    text-shadow: 2px 2px 2px #DE4C36;
+    
+
 }
 
 .left-side-button-pos{
@@ -149,6 +164,8 @@ h2{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-shadow: 2px 2px 2px  rgb(56, 55, 55);
+    
     transition: translate 1.5s;
 }
 
@@ -175,6 +192,8 @@ h2{
 .right-side-conheader{
     display: flex;
     justify-content: center;
+    text-shadow: 2px 2px 2px  rgb(56, 55, 55);
+    font-size: 25px;
 }
 
 .right-side-button-pos{
