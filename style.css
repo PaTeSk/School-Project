@@ -11,6 +11,10 @@ body{
 }
 
 
+
+
+
+
 .split-screen{
     height: 100%;
     width: 100%;
@@ -225,6 +229,167 @@ p{
     transition-delay: 800ms;
     opacity: 1;
 }
+
+
+
+                    /* Responsive */
+                /*                   */
+            /*                          */
+        /*                                 */
+    /*                                         */
+/*                                                 */
+
+
+/* ------------------Laptop------------------ */
+
+@media screen and (max-width: 1024px) {
+    .right-side-aftranslate{
+        width: 400px;
+
+    }
+
+    .left-side-aftranslate{
+        width: 400px;
+    }
+
+    
+}
+
+/* ------------------Tablet------------------ */
+
+
+@media screen and (max-width: 768px) {
+    .right-side-aftranslate{
+        width: 300px;
+
+    }
+
+    .left-side-aftranslate{
+        width: 300px;
+    }
+
+    .logo{
+        width: 250px;
+        height: 250px;
+    }
+
+    .left-side-conheader{
+        font-size: 20px;
+    }
+
+    .right-side-conheader{
+        font-size: 20px;
+    }
+
+    
+}
+
+
+/* ------------------Mobile L------------------ */
+
+
+
+@media screen and (max-width: 425px){
+    
+    .split-screen{  
+        flex-direction: column;
+    }
+
+/* -----------------TOP side------------------ */
+    .left-side{
+        width: 100%;
+        height: 250%;
+    }
+
+    .logo{
+        height: 150px;
+        width: 150px;
+    }
+
+    .left-side-content:hover .left-side-aftranslate{
+        padding-top: 100px;
+        
+    }
+
+   
+    
+    
+
+   
+
+/* -----------------Bottom side------------------ */
+
+    .split-screen{
+        height: 1560px;
+    }
+
+
+    .right-side{
+        width: 100%;
+        height: 250%;
+       
+    }
+
+    
+
+}
+
+
+
+/* ------------------Random Breakpoint------------------ */
+
+
+@media screen and (max-width: 630px){
+
+    .split-screen{  
+        flex-direction: column;
+    }
+
+/* -----------------TOP side------------------ */
+    .left-side{
+        width: 100%;
+        height: 250%;
+    }
+
+    .logo{
+        height: 150px;
+        width: 150px;
+    }
+
+    .left-side-content:hover .left-side-aftranslate{
+        padding-top: 100px;
+        
+    }
+
+   
+    
+    
+
+   
+
+/* -----------------Bottom side------------------ */
+
+    .split-screen{
+        height: 1560px;
+    }
+
+
+    .right-side{
+        width: 100%;
+        height: 250%;
+       
+    }
+
+    
+
+}
+
+    
+
+
+
+
+
 
 
 
