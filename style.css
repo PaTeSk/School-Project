@@ -2,6 +2,8 @@
 /* font-family: 'Roboto', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap');
 /* font-family: 'Kanit', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap');
+/* font-family: 'Inter', sans-serif; */
 
 html,
 body{
@@ -230,6 +232,148 @@ p{
     opacity: 1;
 }
 
+                    /* Login popup */
+                /*                   */
+            /*                          */
+        /*                                 */
+    /*                                         */
+/*                                                 */
+
+
+
+
+.popup{
+    background-color: #00000098;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;;
+    font-weight: 900;
+
+}
+
+
+.login{
+    height: 625px;
+    width: 520px;
+    background-color: #ffffff;
+    position: absolute;
+    z-index: 1;
+    border-radius: 40px;
+    
+}
+
+.login-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.login-head{
+    margin-top: 55px;
+    margin-bottom: 40px;
+    font-size: 36px;
+}
+
+
+.brand-style{
+    color: #ff0000; 
+    text-transform: uppercase;  
+}
+
+.login-con-centering{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.login-input{
+    width: 385px;
+    height: 70px;
+    border-radius: 40px;
+    border: none;
+    background-color: #D9D9D9;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    
+   
+}
+
+.login-input::placeholder{
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    color: #0000005b;
+    
+}
+
+.login-assets{
+    display: flex;
+    gap: 90px;
+    
+    
+}
+
+.assets{
+    font-size: 16px;
+    color: #ff0000;
+    margin-block-start: 18px;
+    margin-bottom: 0px;
+    
+
+}
+
+.signin-button{
+    width: 200px;
+    height: 75px;
+    background-color: #ff0000;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 26px;
+    border: none;
+    border-radius: 100px;
+    margin-top: 30px;
+}
+
+.brand-logo{
+    width: 200px;
+    padding-top: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
                     /* Responsive */
@@ -295,7 +439,7 @@ p{
         flex-direction: column;
     }
 
-/* -----------------TOP side------------------ */
+/* ----------TOP side--------- */
     .left-side{
         width: 100%;
         height: 250%;
@@ -317,7 +461,7 @@ p{
 
    
 
-/* -----------------Bottom side------------------ */
+/* -------Bottom side-------- */
 
     .split-screen{
         height: 1560px;
@@ -345,7 +489,7 @@ p{
         flex-direction: column;
     }
 
-/* -----------------TOP side------------------ */
+/* --------TOP side------ */
     .left-side{
         width: 100%;
         height: 250%;
@@ -367,7 +511,7 @@ p{
 
    
 
-/* -----------------Bottom side------------------ */
+/* ------Bottom side--------*/
 
     .split-screen{
         height: 1560px;
