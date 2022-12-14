@@ -244,6 +244,7 @@ p{
 
 .popup{
     background-color: #00000098;
+    background-size: 100%;
     width: 100%;
     height: 100%;
     position: absolute;
@@ -528,10 +529,66 @@ p{
 
 }
 
+
+
+
+
+/* ------------------Login Page Breakpoint------------------ */
+
+@media screen and (max-width: 550px){
+    .popup {
+        background: none;
+    }
+
+    .login{
+       width: 350px;
+       height: 600px;
+    }
+
+    .login-head{
+        font-size: 26px;
+    }
+
+    .login-input{
+        width: 280px;
+        height: 50px;
+    }
+
+    .login-input::placeholder{
+        font-size: 13px;
+    }
+
+    .login-assets{
+        gap: 50px;  
+    }
+
+    .assets{
+        font-size: 12px;
+    }
     
+}
 
+/* ------------------Login Page Mobile S Breakpoint------------------ */
 
+@media  screen and (max-width: 320px) {
 
+    .login{
+        width: 300px;
+    }
+
+    .login-head{
+        font-size: 23px;
+    }
+    
+    .login-input{
+        width: 260px;
+    }
+
+    .login-assets{
+        gap: 35px;
+    }
+
+}
 
 
 
