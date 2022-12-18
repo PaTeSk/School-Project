@@ -1,597 +1,373 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
-/* font-family: 'Roboto', sans-serif; */
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap');
-/* font-family: 'Kanit', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap');
-/* font-family: 'Inter', sans-serif; */
 
-html,
+
 body{
-    height: 100%;
     margin: 0;
-    font-family: 'Kanit', sans-serif;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    background-color: rgb(241, 239, 239);
+    overflow-x: hidden;
+    
+
 }
 
 
 
+/* ----------------------------Section 1------------------------------ */
 
+.section-1{
+   border-bottom: 5px red double;
+   border-radius: 100px;
+    
+}
 
+.header{
 
-.split-screen{
-    height: 100%;
-    width: 100%;
+    width: 100vw;
+    height: 156px;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.logo{
-    height: 300px;
-    width: 300px;
+.header-con{
 
+    width: 1318px;
+    height: 124px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lab-logo{
+    width: 196px;
+}
+
+
+.header-right{
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    gap: 50px;
+    font-size: 20px;
+    
+}
+
+a{
+    
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transition: 150ms linear;
+}
+
+a:hover{
+    text-shadow: 0 1px 0 rgb(255, 0, 0),
+               0 2px 0 #ff0000,
+               0 3px 0 rgb(255, 0, 0),
+               0 4px 0 #ff0000,
+               0 5px 0 rgb(255, 0, 0),
+               0 6px 1px rgba(0, 0, 0, 0.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+    color: rgb(255, 255, 255);
+}
+
+.header-button-gap{
+    display: flex;
+    align-items: center;
+    gap: 26px;
+}
+
+.register-button{
+    width: 180px;
+    height: 73px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 100px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    border: none;
+    cursor: pointer;
+    transition: 200ms linear;
+    margin-left: 50px;
+}
+
+
+.register-button:hover{
+    box-shadow: 2px 1px 10px 1px black;
+    
+}
+
+.dark-mode{
+    width: 42px;
+    height: 41px;
+}
+
+
+.main-content{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    gap: 45px;
+}
+
+
+.left-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0;
+    height: 621px;
 }
 
 h1{
-   filter: drop-shadow(0px 0px 0px #ffffff33);
+    color: red;
+    font-size: 64px;
+    margin: 0;
+    align-self: center;
+    width: 719px;
+    text-align: center;
+}
+
+.main-p{
+    width: 1027px;
+    height: 304px;
+    font-size: 64px;
+    text-align: center;
+    margin: 0;
+    margin-top: 56px;
+}
+
+.laboratory-button{
+    width: 306px;
+    height: 88px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 100px;
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    border: none;
+
+    margin-top: 98px;
+    align-self: center;
+    transition: 200ms linear;
+    cursor: pointer;
+}
+
+.laboratory-button:hover{
+    box-shadow: 2px 1px 10px 1px black;
+    
+}
+
+.skumavky{
+    width: 677px;
+    float: right; 
+    margin-bottom: 50px ;
+}
+
+/* ----------------------------Section 2------------------------------ */
+.section-2{
+    border-top: 5px red double;
+    border-radius: 100px;
+    border-bottom: 5px red double;
+    
+     
+ }
+
+
+.top-content-pos{
+    display: flex;
+    justify-content: center;
+    margin-left: 278px;
+    gap: 299px;
+    margin-top: 100px;
+    position: relative;
+}
+
+.rack{
+    width: 350px;
+}
+
+
+
+.text-pos-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 81px;
 }
 
 h2{
-    font-size: 2em;
-}
-
-h3{
-    font-size: 25px;
-}
-
-p{
-    font-size: 20px;
-}
-
-
-
-
-
-                    /* Left Side */
-                /*                  */
-            /*                          */
-        /*                                  */
-    /*                                          */
-/*                                                  */
-.left-side{
-    width: 50%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.823);
-}
-
-.left-side-content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    color: white;
-    cursor: url(./Images/git\ logo\ cursor.png), auto;
-
-}
-
-.left-side-translate{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-shadow: 2px 2px 2px #DE4C36;
     
-    transition: translate 1.5s;
-
-}
-
-
-
-.left-side-content:hover .left-side-translate{
-    translate: 0px -250px
-}
-
-
-.left-side-aftranslate{
-    position: absolute;
-    opacity: 0;
-    width: 600px;
-    padding-top: 120px;
-}
-
-.left-side-content:hover .left-side-aftranslate{
-    transition: 1s;
-    transition-delay: 800ms;
-    opacity: 1;
-    padding-top: 222px;
-}
-
-.left-side-conheader{
-    display: flex;
-    justify-content: center;
-    text-shadow: 2px 2px 2px #DE4C36;
+    color: red;
+    font-size: 50px;
+    margin: 0;
+    align-self: center;
+    justify-self: center;
+    width: 837px;
+    text-align: center;
+    padding-top: 75px;
     
 
 }
 
-.left-side-button-pos{
-    display: flex;
-    position: absolute;
-    padding-top:700px;
-
-}
-
-.left-side-button{
-    height: 50px;
-    width: 150px;
-    font-family: 'Kanit', sans-serif;
-    border-radius: 15px;
-    border: 0px;
-    font-size: 20px;
-    background-color: #DE4C36;
-    opacity: 0;
-    cursor: pointer;
-    
-}
-
-
-.left-side:hover .left-side-button{
-    transition: 1s;
-    transition-delay: 800ms;
-    opacity: 1;
-}
-
-
-/* ----------------------------END------------------------------ */
-
-
-
-
-
-                    /* Right Side */
-                /*                   */
-            /*                          */
-        /*                                 */
-    /*                                         */
-/*                                                 */
-.right-side{
-    width: 50%;
-    height: 100%; 
-
-    background-color: rgb(255, 255, 255);
-}
-
-.right-side-content{
-     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    cursor: url(./Images/github\ logo\ cursor.png), auto;
-    
-}
-
-.right-side-translate{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-shadow: 2px 2px 2px  rgb(56, 55, 55);
-    
-    transition: translate 1.5s;
-}
-
-.right-side-content:hover .right-side-translate{
-    translate: 0px -250px;
-
-}
-
-.right-side-aftranslate{
-    opacity: 0;
-    position: absolute;
-    width: 600px;
-    padding-top: 120px;
-}
-
-
-.right-side:hover .right-side-aftranslate{
-    transition: 1s;
-    transition-delay: 800ms;
-    opacity: 1;
-    padding-top: 222px;
-}
-
-.right-side-conheader{
-    display: flex;
-    justify-content: center;
-    text-shadow: 2px 2px 2px  rgb(56, 55, 55);
-    font-size: 25px;
-}
-
-.right-side-button-pos{
-    display: flex;
-    position: absolute;
-    padding-top:700px;
-
-}
-
-.right-side-button{
-    height: 50px;
-    width: 150px;
-    font-family: 'Kanit', sans-serif;
-    color: white;
-    border-radius: 15px;
-    border: 0px;
-    font-size: 20px;
-    background-color: #000000;
-    opacity: 0;
-    cursor: pointer;
-}
-
-.right-side:hover .right-side-button{
-    transition: 1s;
-    transition-delay: 800ms;
-    opacity: 1;
-}
-
-                    /* Login popup */
-                /*                   */
-            /*                          */
-        /*                                 */
-    /*                                         */
-/*                                                 */
-
-
-
-
-.popup{
-    background-color: #00000098;
-    background-size: 100%;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Inter', sans-serif;;
-    font-weight: 900;
-
-}
-
-
-.login{
-    height: 625px;
-    width: 520px;
-    background-color: #ffffff;
-    position: absolute;
-    z-index: 1;
-    border-radius: 40px;
-    
-}
-
-.login-content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-}
-
-
-.login-head{
-    margin-top: 55px;
-    margin-bottom: 40px;
-    font-size: 36px;
-}
-
-
-.brand-style{
-    color: #ff0000; 
-    text-transform: uppercase;  
-}
-
-.login-con-centering{
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-}
-
-.login-input{
-    width: 385px;
-    height: 70px;
-    border-radius: 40px;
-    border: none;
-    background-color: #D9D9D9;
-    font-family: 'Inter', sans-serif;
-    font-weight: 900;
-    font-size: 20px;
-    box-sizing: border-box;
-    padding-left: 20px;
-    
+.rack-def{
+    font-size: 35px;
+    text-align: center;
+    width: 672px;
    
 }
 
-.login-input::placeholder{
-    font-family: 'Inter', sans-serif;
-    font-weight: 900;
-    font-size: 15px;
-    color: #0000005b;
-    
+.arrow{
+    position: absolute;
+    width: 400px;
+    left: 26%;
+    top: 90%;
 }
 
-.login-assets{
+
+
+
+.middle-content-pos{
     display: flex;
-    gap: 90px;
+    justify-content: center;
+    margin-right: 287px;
+    gap: 299px;
+    margin-top: 200px;
+    position: relative;
+}
+
+
+
+
+.text-pos-left{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     
     
 }
 
-.assets{
-    font-size: 16px;
-    color: #ff0000;
-    margin-block-start: 18px;
-    margin-bottom: 0px;
+.arrow1{
     
-
+    position: absolute;
+    width: 400px;
+    rotate: 90deg;
+    top: 70%;
+    right: 35%;
+    
 }
 
-.signin-button{
-    width: 200px;
-    height: 75px;
-    background-color: #ff0000;
-    color: #ffffff;
-    font-family: 'Inter', sans-serif;
-    font-weight: 900;
-    font-size: 26px;
-    border: none;
+.bottom-content-pos{
+    display: flex;
+    justify-content: center;
+    margin-left: 278px;
+    gap: 299px;
+    margin-top: 200px;
+    position: relative;
+}
+
+
+
+/* ----------------------------Section 3------------------------------ */
+
+.section-3{
+    border-top: 5px red double;
+    border-bottom: 5px red double;
     border-radius: 100px;
+    
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+ }
+
+ .section-content{
+    display: flex;
+    flex-direction: column;
+ }
+ .top-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-top: 30px;
-}
+ }
 
-.brand-logo{
-    width: 200px;
-    padding-top: 25px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                    /* Responsive */
-                /*                   */
-            /*                          */
-        /*                                 */
-    /*                                         */
-/*                                                 */
-
-
-/* ------------------Laptop------------------ */
-
-@media screen and (max-width: 1024px) {
-    .right-side-aftranslate{
-        width: 400px;
-
-    }
-
-    .left-side-aftranslate{
-        width: 400px;
-    }
-
-    
-}
-
-/* ------------------Tablet------------------ */
-
-
-@media screen and (max-width: 768px) {
-    .right-side-aftranslate{
-        width: 300px;
-
-    }
-
-    .left-side-aftranslate{
-        width: 300px;
-    }
-
-    .logo{
-        width: 250px;
-        height: 250px;
-    }
-
-    .left-side-conheader{
-        font-size: 20px;
-    }
-
-    .right-side-conheader{
-        font-size: 20px;
-    }
-
-    
-}
-
-
-/* ------------------Mobile L------------------ */
-
-
-
-@media screen and (max-width: 425px){
-    
-    .split-screen{  
-        flex-direction: column;
-    }
-
-/* ----------TOP side--------- */
-    .left-side{
-        width: 100%;
-        height: 250%;
-    }
-
-    .logo{
-        height: 150px;
-        width: 150px;
-    }
-
-    .left-side-content:hover .left-side-aftranslate{
-        padding-top: 100px;
-        
-    }
-
-   
+ .footer-motto{
+    display: flex;
+    font-size: 45px;
+    padding-top: 50px;
     
     
+ }
 
-   
 
-/* -------Bottom side-------- */
+ .social-position{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 480px;
+    gap: 45px;
+ }
 
-    .split-screen{
-        height: 1560px;
+ .github-logo{
+    width: 75px;
+    height: 75.75px;
+
+ }
+ .github-logo:hover{
+    animation: spin 2s ease;
+ }
+
+@keyframes spin {
+
+    from {
+        transform: rotateY(0deg);
     }
 
-
-    .right-side{
-        width: 100%;
-        height: 250%;
-       
-    }
-
-    
-
-}
-
-
-
-/* ------------------Random Breakpoint------------------ */
-
-
-@media screen and (max-width: 630px){
-
-    .split-screen{  
-        flex-direction: column;
-    }
-
-/* --------TOP side------ */
-    .left-side{
-        width: 100%;
-        height: 250%;
-    }
-
-    .logo{
-        height: 150px;
-        width: 150px;
-    }
-
-    .left-side-content:hover .left-side-aftranslate{
-        padding-top: 100px;
-        
-    }
-
-   
-    
-    
-
-   
-
-/* ------Bottom side--------*/
-
-    .split-screen{
-        height: 1560px;
-    }
-
-
-    .right-side{
-        width: 100%;
-        height: 250%;
-       
-    }
-
-    
-
-}
-
-
-
-
-
-/* ------------------Login Page Breakpoint------------------ */
-
-@media screen and (max-width: 550px){
-    .popup {
-        background: none;
-    }
-
-    .login{
-       width: 350px;
-       height: 600px;
-    }
-
-    .login-head{
-        font-size: 26px;
-    }
-
-    .login-input{
-        width: 280px;
-        height: 50px;
-    }
-
-    .login-input::placeholder{
-        font-size: 13px;
-    }
-
-    .login-assets{
-        gap: 50px;  
-    }
-
-    .assets{
-        font-size: 12px;
+    to {
+        transform: rotateY(359deg);
     }
     
 }
 
-/* ------------------Login Page Mobile S Breakpoint------------------ */
-
-@media  screen and (max-width: 320px) {
-
-    .login{
-        width: 300px;
-    }
-
-    .login-head{
-        font-size: 23px;
-    }
+ .discord-logo{
+    width: 75px;
     
-    .login-input{
-        width: 260px;
-    }
+    
+ }
 
-    .login-assets{
-        gap: 35px;
-    }
+ .discord-logo:hover{
+    animation: spin 2s ease;
+ }
 
-}
+ .footer-logo{
+    width: 300px;
+    margin-right: 61px;
+ }
 
+ .bottom-content{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+ }
 
-
-
+ .text-red{
+    color: #ff0000;
+ }
 
 /* ----------------------------END------------------------------ */
