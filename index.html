@@ -2,10 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="HandheldFriendly" content="true">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./index_responive.css">
+
 </head>
 <body>
     <div class="section-1">
@@ -15,7 +18,7 @@
                     <img src="./Images/logo.png" alt="Effort lab logo" class="lab-logo">
                 </div>
                 <div class="header-right">
-                    <nav>
+                    <nav class="pc">
                         <a href="">Laboratory</a>
                         <a href="">About</a>
                         <a href="">Log in</a>
@@ -25,6 +28,22 @@
                         <img src="./Images/pngfind.com-night-png-759829.png" alt="dark mode" class="dark-mode">
                     </div>
                 </div>
+                <div id="header-mobile">
+                    <div id="menu-bar" onclick="menuOnClick()">
+                        <div id="bar1" class="bar"></div>
+                        <div id="bar2" class="bar"></div>
+                        <div id="bar3" class="bar"></div>
+                    </div>
+                    <nav class="nav" id="nav">
+                        <ul>
+                            <li><a href="#">Laboratory</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Log in</a></li>
+                            <li><a href="#" class="register">Register</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="menu-bg" id="menu-bg"></div>
             </div>
         </div>
 
@@ -41,40 +60,38 @@
     </div>
 
     <div class="section-2">
-        <div class="top-content-pos">
-            <div class="rack-pos-left">
-                <img src="./Images/Rack 1.png" alt="test tube rack" class="rack">
+            <div class="top-content-pos">
+                <div class="rack-pos-left">
+                    <img src="./Images/Rack 1.png" alt="test tube rack" class="rack">
+                </div>
+                <div class="text-pos-right">
+                    <h2>Understand the web</h2>
+                    <p class="rack-def">Become scientist in tools <br> that other scientists use every day</p>
+                </div>
             </div>
-            <div class="text-pos-right">
-                <h2>Understand the web</h2>
-                <p class="rack-def">Become scientist in tools <br> that other scientists use every day</p>
-            </div>
-            <img src="./Images/output-onlinepngtools.png" alt="arrow" class="arrow">
-        </div>
 
 
 
 
-        <div class="middle-content-pos">
-            <div class="text-pos-left">
-                <h2>Build a web</h2>
-                <p class="rack-def">Build your first <br> inventions from scratch to finish</p>
+            <div class="middle-content-pos">
+                <div class="text-pos-left">
+                    <h2>Build a web</h2>
+                    <p class="rack-def">Build your first <br> inventions from scratch to finish</p>
+                </div>
+                <div class="rack-pos-right">
+                    <img src="./Images/Rack 2.png" alt="test tube rack" class="rack">
+                </div>
             </div>
-            <div class="rack-pos-right">
-                <img src="./Images/Rack 2.png" alt="test tube rack" class="rack">
-            </div>
-            <img src="./Images/output-onlinepngtools.png" alt="arrow" class="arrow1">
-        </div>
 
-        <div class="bottom-content-pos">
-            <div class="rack-pos-left">
-                <img src="./Images/Rack 3.png" alt="test tube rack" class="rack">
+            <div class="bottom-content-pos">
+                <div class="rack-pos-left">
+                    <img src="./Images/Rack 3.png" alt="test tube rack" class="rack">
+                </div>
+                <div class="text-pos-right">
+                    <h2>Show your Inventions</h2>
+                    <p class="rack-def">Show your inventions on <br> your portfolio and <br> start your career as a web developer</p>
+                </div>
             </div>
-            <div class="text-pos-right">
-                <h2>Show your Inventions</h2>
-                <p class="rack-def">Show your inventions on <br> your portfolio and <br> start your career as a web developer</p>
-            </div>
-        </div>
     </div>
 
 
@@ -99,7 +116,7 @@
 
 
 
-
+<script src="./menu_responsive.js"></script>
 
 </body>
 </html>
